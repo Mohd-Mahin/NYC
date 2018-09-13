@@ -1,0 +1,574 @@
+/*------------------------Small Sized Screen----------------------------*/
+@media screen and (max-width: 380px) {
+  .sidebar.active {
+    right: 19.5%;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 430px) {
+  .sidebar.active {
+    right: 26.8%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text_between_hr {
+    width: 62%;
+  }
+
+  .container-fluid.middle_heading {
+    padding-top: 8px;
+  }
+
+  .mayor_text,
+  .footer_list_section,
+  .container-fluid.footer,
+  .center_mayor_image_container {
+    height: auto;
+  }
+
+  .middle_header_text {
+    font-size: 26px;
+    padding-top: 15px;   
+  }
+  
+  .btn_read_full_bio {
+    width: 50.7%;
+  }
+
+  .hidden_search {
+    visibility: hidden;
+  }
+
+  .mayor_text {
+    width: 84%;
+    margin: auto;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+  .container-fluid.row {
+    height: 184px;
+  }   
+
+  .header_main {
+    height: 106px;
+  }
+
+  .button-width {
+    height: 35px;
+    font-size: 16.02px;
+    line-height: 33px;
+    padding: 0;
+  }
+
+  .btn_left {
+    float: left;
+    width: 42.6%;
+  }
+
+  .btn_right {
+    float: right; 
+    width: 42.6%;  
+  }
+
+  .mayor,
+  .first_lady {
+    margin: 8px 8px 0;
+  }
+
+  .officials {
+    margin: 0 8px  0 0;
+  }
+
+  .hidden_image {
+    display: inherit;
+  }
+
+  .navbar-nav.small_position {
+    height: 100vh;
+  }
+
+  .navbar-nav {
+    width: 99.99%;
+  }
+
+  .hidden_search {
+    display: initial;
+    left: 93%;
+    bottom: 26px;
+  }
+  
+  .iphone,
+  .twitter,
+  .icone_bars {  
+    right: 0;
+    margin: 2px 0 1px 15px;
+    width: 97%;
+  }
+  
+  .position_list_footer {
+    margin: 2px 0 1px 0;
+  }
+
+  .no_left_small {
+    left: 0;
+  }
+
+  .hr_below_buttons {
+    width: 96.5%;
+    margin-left: 8px;
+  }
+
+  .footer_header_text {
+    width: 149px;
+  }
+
+  .row.footer_header_image {
+    justify-content: flex-start;
+  }
+
+  .footer_list_section {
+    width: 92.9%;
+  }
+
+  .access_zero_margin {
+    right: 13px;
+  }
+
+  .last_footer_left {
+    width: 99.975%;
+  }
+
+  .last_footer_black {
+    height: 500px; 
+    padding-top: 13px;
+  }
+
+  .column_first {
+    padding-left: 0px;
+    margin-bottom: 7.5px;
+  }
+
+  .city_employes_list {
+    margin-bottom: 8px;
+  }
+
+  .last_footer_left_text {
+    font-size: 15.8px;
+    padding-left: 12px;
+  }    
+
+  .margin_bottom {
+    margin-bottom: 6px;
+  } 
+
+  .footer_last_right_image {
+    width: 110px;
+  }
+
+  .last_footer_right {
+    width: 72%;
+    padding: 20px 0 0 0;
+  }
+
+  .last_footer_section,
+  .footer_last_text {
+    width: 101%;
+  }
+
+  .last_footer_black {
+    height: 468px;
+  }
+
+  .col-2.text-right.pr-0.pt-2.mt-1 {
+    padding-left: 0;
+  }
+
+  .btn_read_full_bio,
+  .col-2.text-right.pr-0.pt-2.mt-1,
+  .zero_margin_small {
+    margin-left: 0;
+  }
+
+   .hr_design {
+    border-top: 2px solid rgba(0,0,0,.1);
+  } 
+
+  .col-md-8.col-sm-12.col-xs-12.mx-auto {
+    padding: 0 20px 0 20px;
+  }
+
+  .small_position {
+    position: relative;
+  }
+
+  .navbar.sidebar.navbar-expand-md.p-0,
+  a.first_link_space,  
+  .display_none_xs {
+    display: none;
+  }
+
+  ul.navbar-nav li:nth-child(2) {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .below_navbar {
+    line-height: 22px;
+    font-size: 16px;
+    margin-left: 0;
+    width: 86%;
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .col-3-5 {
+    display: none;
+  }
+  
+  .col-5-5 {
+    width: 99.98%;
+  }
+}
+
+/*---------- Medium Screen Device ------------------*/
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .first_button {
+    width: 3.5%;      
+  }
+ 
+  .right_text_header {
+    width: 113%;
+  }
+
+  .col-3-5 {
+    width: 37.5%;
+  }
+  
+  .col-5-5 {
+    width: 54.5%;
+  }
+
+  .image_mayor {
+    width: 77.7%;
+  }
+
+  .below_navbar {
+    margin: 0 auto 0 20px;
+  }
+
+  .dropdown-menu>.container_header_link {
+    width: 1000px;
+    left: 7px;
+  }
+
+  .hr_below_buttons {
+    width: 95%;
+  }
+
+  .footer_list_section {
+    width: 90.9%;
+  }
+
+  .footer_header_image img {
+    padding-right: 11px;
+  }
+
+  .footer_header_text {
+    padding: 8px 0 0 0px;
+  }
+
+  .last_footer_section {
+    width: 90%;
+  }
+
+  .link_button {
+    width: 129%;
+  }
+
+  .iphone {
+    right: 130px;
+  }
+
+  .twitter {
+    right: 33px;
+  }
+
+  .icone_bars {
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .sidebar {
+    position: fixed;  
+    bottom: 0;
+    right: 100%;
+    background: #ededed;
+    width: 285px;
+    -webkit-box-shadow: inset -16px 0 24px -12px rgba(0,0,0,.25);
+    -moz-box-shadow: inset -16px 0 24px -12px rgba(0,0,0,.25);
+    box-shadow: inset -16px 0 24px -12px rgba(0,0,0,.25);
+  }  
+ 
+  .body_style {
+    z-index: 0;
+    left: 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: visible; 
+  }
+
+  .body_style,
+  .sidebar {
+    transition: all .3s ease-in-out;
+  }
+
+  .slide {
+    left: 284px;
+  }
+
+  .sidebar,
+  .navbar.navbar-expand-md {
+    height: 100vh;
+  }
+
+  .navbar-toggler-icon {
+    top: 30px;  
+    height: 15px;
+    width: 40px;
+    background: url(img/icon_toggler.png) no-repeat center 10%;
+    cursor: pointer;
+  }
+
+  .navbar.navbar-expand-md {
+    border: none;  
+  }
+  .sidebar,
+  .navbar-nav {
+    top: 0;
+  }
+
+  ul li.nav-item {
+    width: 95%;
+    margin: 0 0 5px 7px;
+    border: 1px solid #CCC;
+  }
+
+  ul li.nav-item,
+  ul li.nav-item:hover {
+    background: #fff;
+  }
+
+  li.nav-item:hover a.nav-link {
+    text-decoration: none;
+    color: #1771b7;
+  }
+
+  ul li.nav-item a {
+    background: url(img/link-arrow.png) no-repeat right center;
+    font-size: 16px;
+    font-weight: 700;         
+    height: 52px;
+    line-height: 32px;
+  }
+
+  .hidden_search {
+    visibility: visible;
+  }
+
+  .block_title {
+    background-color: #333;
+    color: #fff;
+    height: 54px;
+    width: 100%;
+    border: none;
+    white-space: nowrap;
+    font-size: 14.02px;
+    font-weight: 400;
+    line-height: 55px;
+    padding: 0 0 0 6px;
+    margin: 20px 0 20px 0;
+  }
+
+  .navbar.sidebar.navbar-expand-md.p-0 {
+    display: initial;
+  }
+  
+  .block_title,
+  .navbar-toggler-icon {
+    display: block;
+  }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .first_button {
+    width: 2.5%;
+  }
+  
+  ul.navbar-nav li {
+    padding: 0 6px 0 6px;
+  }
+
+  .input-group-addon >.fa.fa-search {
+    position: relative;
+    right: 25px;
+  }
+
+  .form-control.active_input_header,
+  .form-control+.input-group-addon:not(:first-child) {
+    display: none;
+  }
+
+  .official_website_text {
+    width: 105.1%;
+  }
+
+  .nyc_img {
+    width: 14.7%;
+  }
+
+  .drop_down_header {
+    width: 43%;
+  }
+
+  .dropdown-menu>.container_header_link {
+    width: 909px;
+    right: 0;
+    left: 171px;
+  }
+
+  .sub_container:first-child {
+    margin-right: 7px;
+  }
+
+  .sub_container.large_column_width {
+    width: 13.1%;
+  }
+
+  .below_navbar {
+    width: 98.2%;
+  }
+
+  .col-3-5 {
+    width: 289px;
+    height: 291px;
+  }
+
+  .col-5-5 {
+    width: 61%;
+    height: 290px;
+  }
+
+  .image_mayor {
+    bottom: 0;
+    left: 14px;
+  }
+
+  .middle_header_text {
+    margin-top: 11px;
+  }
+
+  .space_behind_center_hr {
+    width: 23px;
+  }
+
+  .img-fluid {
+    max-width: 99%;
+  }
+
+  .mayor_text {
+    padding-top: 15px; 
+  }
+
+  .float_left {
+    padding-bottom: 1px;
+  }
+
+  .btn_read_full_bio {
+    width: 27.7%;
+  }
+
+  .btn_read_full_bio,
+  .mayor_text {
+    margin-left: 0;
+  }
+
+  .iphone {
+    right: 109px;
+  }
+
+  .link_button {
+    width: 135.9%;
+  }
+
+  .twitter {
+    right: 30px;
+  }
+
+  .icone_bars {
+    left: 28px;
+  }
+
+  .hr_below_buttons {
+    width: 97%;
+  }
+
+  .hr_design {
+    border-top: 2px solid rgba(0,0,0,.1);
+  }
+
+  .container-fluid.footer {
+    overflow-x: hidden;    
+  }
+
+  .last_footer_section {
+    height: 245px;
+  }
+
+  .last_footer_section {
+    width: 100%
+  }
+
+  .footer_list_section {
+    width: 95%;
+    height: 484px;
+  }
+
+  .footer a {
+    margin: 0;
+  }
+
+  .footer_links {
+    width: 94%;
+  }
+
+  .width_in_ipad_footer {
+    width: 88.5%;
+  }
+   
+  .footer a,
+  .row.hidden_small,
+  .col-5.text-right,
+  .padding_no_left_ipad {
+    padding-left: 0;
+  }
+  
+  .button_on_right,
+  .officials,
+  .header_active_button,
+  .first_lady {
+    width: 43.5%;    
+  }
+
+  a.first_link_space {
+    width: 4.6%;
+  }
+
+  .button_on_right {
+    margin: 0 11px 0 8px;
+  }
+}

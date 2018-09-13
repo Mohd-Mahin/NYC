@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Office of the Mayor | Overview | City of New York</title>
+        <link rel="shortcut icon" href="img/nc_header_logo.png"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap_assignment_3.css"/>
+        <link rel="stylesheet" href="responsive.css"/>
+    </head>
+    <body class="body_style">
+        <form role="form" id="office_of_mayor_form">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-center text-white header_upper_text pl-3">
+                        <div class="header_text">Visit <a href="#" class="color_white"><strong>alpha.nyc.gov</strong></a> to help us test out new ideas for NYC's website.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row display_none_xs hidden_small">
+                    <div class="col-5 text-right">
+                        <div class="official_website_text line_height">The Official Website of the City of New York</div>
+                    </div>
+                    <div class="nyc_img">
+                        <a href="#">
+                            <img src="img/nyc.png" alt="nyc.png" class="img-responsive ml-md-2">
+                        </a>
+                    </div>        
+                    <div class="drop_down_header mx-auto">
+                        <div class="right_text_header">
+                            <img src="img/language.gif" alt="language.gif"/>
+                            <span class="muted font-weight-bold">Translate</span>|
+                            <div class="dropdown show">
+                                <a class="down_arrow text-muted dropdown" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    &#9660;
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <div class="container_header_link position_relative">
+                                        <div class="small_width_tab sub_container">
+                                            <span class="dropdown-item first_element font-weight-bold">›Select Language</span>
+                                            <a class="dropdown-item" href="#">Albanian</a>
+                                            <a class="dropdown-item" href="#">Amharic Arabic</a>
+                                            <a class="dropdown-item" href="#">Arabic</a>
+                                            <a class="dropdown-item" href="#">Armenian</a>
+                                            <a class="dropdown-item" href="#">Azerbaijani</a>
+                                            <a class="dropdown-item" href="#">Basque</a>
+                                            <a class="dropdown-item" href="#">Belarusian</a>
+                                            <a class="dropdown-item" href="#">Bengali</a>
+                                            <a class="dropdown-item" href="#">Bosnian</a>
+                                        </div>
+                                        <div class="sub_container large_column_width">
+                                            <a class="dropdown-item" href="#">Bulgarian</a>
+                                            <a class="dropdown-item" href="#">Catalan</a>
+                                            <a class="dropdown-item" href="#">Cebuano</a>
+                                            <a class="dropdown-item" href="#">Chichewa</a>
+                                            <a class="dropdown-item" href="#">Chinese (Simplified)</a>
+                                            <a class="dropdown-item" href="#">Chinese (Traditional)</a>
+                                            <a class="dropdown-item" href="#">Corsican</a>
+                                            <a class="dropdown-item" href="#">Croatian</a>
+                                            <a class="dropdown-item" href="#">Czech</a>
+                                            <a class="dropdown-item" href="#">Finnish</a>
+                                        </div>
+                                        <div class="sub_container">
+                                            <a class="dropdown-item" href="#">Haitian Creole</a>
+                                            <a class="dropdown-item" href="#">Hausa</a>
+                                            <a class="dropdown-item" href="#">Hawaiian</a>
+                                            <a class="dropdown-item" href="#">Hebrew</a>
+                                            <a class="dropdown-item" href="#">Hindi</a>
+                                            <a class="d/89ropdown-item" href="#">Hmong</a>
+                                            <a class="dropdown-item" href="#">Hungarian</a>
+                                            <a class="dropdown-item" href="#">Icelandic</a>
+                                            <a class="dropdown-item" href="#">Igbo</a>
+                                            <a class="dropdown-item" href="#">Indonesian</a>     
+                                        </div>
+                                        <div class="sub_container large_column_width">
+                                            <a class="dropdown-item" href="#">Italian</a>
+                                            <a class="dropdown-item" href="#">Japanese</a>
+                                            <a class="dropdown-item" href="#">Javanese</a>
+                                            <a class="dropdown-item" href="#">Kannada</a>
+                                            <a class="dropdown-item" href="#">Kazakh</a>
+                                            <a class="dropdown-item" href="#">Khmer</a>
+                                            <a class="dropdown-item" href="#">Korean</a>
+                                            <a class="dropdown-item" href="#">Kurdish (Kurmanji)</a>
+                                            <a class="dropdown-item" href="#">Kyrgyz</a>
+                                            <a class="dropdown-item" href="#">Lao</a>
+                                        </div>
+                                        <div class="sub_container">
+                                            <a class="dropdown-item" href="#">Latvian</a>
+                                            <a class="dropdown-item" href="#">Latvian</a>
+                                            <a class="dropdown-item" href="#">Lithuanian</a>
+                                            <a class="dropdown-item" href="#">Luxembourgish</a>
+                                            <a class="dropdown-item" href="#">Macedonian</a>
+                                            <a class="dropdown-item" href="#">Malagasy</a>
+                                            <a class="dropdown-item" href="#">Malay</a>
+                                            <a class="dropdown-item" href="#">Malayalam</a>
+                                            <a class="dropdown-item" href="#">Maltese</a>
+                                            <a class="dropdown-item" href="#">Maori</a>    
+                                        </div>
+                                        <div class="sub_container large_column_width">
+                                            <a class="dropdown-item" href="#">Marathi</a>
+                                            <a class="dropdown-item" href="#">Mongolian</a>
+                                            <a class="dropdown-item" href="#">Myanmar (Burmese)</a>
+                                            <a class="dropdown-item" href="#">Nepali</a>
+                                            <a class="dropdown-item" href="#">Norwegian</a>
+                                            <a class="dropdown-item" href="#">Pashto</a>
+                                            <a class="dropdown-item" href="#">Persian</a>
+                                            <a class="dropdown-item" href="#">Polish</a>
+                                            <a class="dropdown-item" href="#">Portuguese</a>
+                                            <a class="dropdown-item" href="#">Punjabi</a>
+                                        </div>
+                                        <div class="sub_container middle_container">
+                                            <a class="dropdown-item" href="#">Scots Gaelic</a>
+                                            <a class="dropdown-item" href="#">Serbian</a>
+                                            <a class="dropdown-item" href="#">Sesotho</a>
+                                            <a class="dropdown-item" href="#">Shona</a>
+                                            <a class="dropdown-item" href="#">Sindhi</a>
+                                            <a class="dropdown-item" href="#">Sinhala</a>
+                                            <a class="dropdown-item" href="#">Slovak</a>
+                                            <a class="dropdown-item" href="#">Slovenian</a>
+                                            <a class="dropdown-item" href="#">Somali</a>
+                                            <a class="dropdown-item" href="#">Spanish</a>        
+                                        </div>
+                                        <div class="sub_container last_container">
+                                            <a class="dropdown-item" href="#">Swahili</a>
+                                            <a class="dropdown-item" href="#">Swedish</a>
+                                            <a class="dropdown-item" href="#">Tajik</a>
+                                            <a class="dropdown-item" href="#">Tamil</a>
+                                            <a class="dropdown-item" href="#">Telugu</a>
+                                            <a class="dropdown-item" href="#">Thai</a>
+                                            <a class="dropdown-item" href="#">Turkish</a>
+                                            <a class="dropdown-item" href="#">Ukrainian</a>
+                                            <a class="dropdown-item" href="#">Urdu</a>
+                                            <a class="dropdown-item" href="#">Uzbek</a>
+                                        </div>
+                                        <div class="sub_container last_container">
+                                            <a class="dropdown-item" href="#">Welsh</a>
+                                            <a class="dropdown-item" href="#">Xhosa</a>
+                                            <a class="dropdown-item" href="#">Yiddish</a>
+                                            <a class="dropdown-item" href="#">Yoruba</a>
+                                            <a class="dropdown-item" href="#">Zulu</a>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="muted font-weight-bold text_size_upper header_text_size"> Text Size</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="navbar-toggler-icon no_left_small small_position"></span>
+            <img src="img/nyc.png" alt="nyc.png" class="img-responsive mx-auto hidden_image pt-2"/>
+            <i class="hidden_search fa fa-search small_position" id="header_input_hidden"></i>
+            <nav class="navbar sidebar navbar-expand-md p-0">  
+                <div class="first_button display_none_xs"></div>
+                <div class="block_title small_position mb-xs-2">The Official Website of the City of New York</div>
+                <ul class="navbar-nav small_position">
+                    <li class="nav-item display_none_xs">
+                        <a class="nav-link color_white" href="#"><img src="img/gray0home.png" alt="gray0home.png"/></a>
+                    </li>
+                    <li class="nav-item  color_white">
+                        <a class="nav-link" href="#">NYC Resources</a>
+                    </li>
+                    <li class="nav-item color_white">
+                        <a class="nav-link" href="#">NYC311</a>
+                    </li>
+                    <li class="nav-item active no_left_small color_white">
+                        <a class="nav-link" href="#">Office of the Mayor</a>
+                    </li>
+                    <li class="nav-item color_white">
+                        <a class="nav-link color_white" href="#">Events</a>
+                    </li>
+                    <li class="nav-item color_white">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+                    <li class="nav-item color_white">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li>
+                        <div class="input-group active_input display_none_xs">
+                            <input type="text" name="header_text" class="form-control display_none_xs active_input_header" id="header_text" value="Search"/>
+                            <span class="input-group-addon"><i class="fa fa-search ml-xs-auto pr-1"></i></span>
+                        </div>
+                    </li>
+                </ul>            
+            </nav>            
+            <div class="container-fluid">
+                <div class="row header_main">
+                    <div class="col-md-6 p-0"> 
+                        <a href="#" class="first_link_space"></a>
+                        <a class="btn btn-lg header_active_button font_weight_bold text-white border-white button-width mayor btn_left" href="#">Mayor</a>
+                        <a class="btn btn-lg first_lady header_button font_weight_bold header_non_active text-white float-right button-width btn_right" href="#">First Lady</a>                            
+                    </div>
+                    <div class="col-md-6 p-0 m-0">
+                        <a class="btn btn-lg header_button font_weight_bold text-white header_non_active button_on_right button-width btn_left" href="#">News</a>
+                        <a class="btn btn-lg header_button font_weight_bold text-white header_non_active button-width btn_right officials" href="#">Officials</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="container-fluid middle_heading">
+                <div class="below_navbar"> Welcome to the Office of the Mayor of New York City</div>    
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class=" col-3-5 center_mayor_image_container">
+                        <div class="image_mayor position_relative"><img class="img-fluid" src="img/person.png" alt="person.png"/></div>
+                    </div>
+                    <div class="col-5-5 center_mayor_image_container">
+                        <div class="font-weight-bold text-center middle_header_text  pt-2 pr-4">Bill de Blasio</div>
+                        <div class="mx-auto outer_conatiner">
+                            <div class="space_behind_center_hr float_left">.</div>
+                            <div class="horizontal_row_left float_left display_none_xs"><hr class="hr_design"/></div>
+                            <div class="text_between_hr float_left text-center font-weight-bold">109th Mayor of New York City</div>
+                            <div class="horizontal_row_right float_left display_none_xs"><hr class="hr_design"/></div>
+                        </div>
+                        <div class="mayor_text line_height pt-0 mb-0 pb-lg-2">
+                            As New York City’s 109th mayor, Bill de Blasio is committed to fighting the income 
+                            inequality that has created a ‘Tale of Two Cities’ across the 
+                            five boroughs. Mayor de Blasio believes all New Yorkers deserve a chance to succeed in the greatest  
+                            city on earth. That means every child gets a quality education, every community is safe, 
+                            and every New Yorker has an affordable 
+                            place to call home.
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row pt-lg-1">
+                                <div class="col-md-4 col-1"></div>
+                                <button type="button" name="full_bio_button" id="full_bio_button" class="btn btn_read_full_bio color_white font-weight-bold col-xs-5">READ FULL BIO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="empty_space_above_button"></div> 
+                <div class="row pb-md-4">
+                    <div class="col-md-8 col-sm-12 col-xs-12 mx-auto">
+                        <div class="row p-0">
+                            <div class="col-md-4 col-sm-12 pl-0 pr-md-0 color_white">
+                                <a href="#" class="btn link_button color_white iphone icon no_left_small position_relative">
+                                    <img src="img/iphone.png" class="img-fluid" alt="iphone.png.png"/>NYC Apps
+                                </a>
+                            </div>
+                            <div class="col-md-4 pl-0 pr-md-0 color_white">
+                                <a href="#" class="btn link_button twitter color_white icon no_left_small position_relative">
+                                    <img src="img/twitter_white.png" class="img-fluid img_twitter" alt="twitter_white.png"/>@NYCMayorsOffice
+                                </a>
+                            </div>
+                            <div class="col-md-4 pl-0 pr-md-0 color_white">
+                                <a href="#" class="btn link_button icone_bars icon color_white no_left_small position_relative">
+                                    <img src="img/white-bars.png" class="img-fluid img_icone_bars" alt="white-bars.png"/>Contact the Mayor
+                                </a>
+                            </div>    
+                        </div>        
+                    </div>
+                </div>
+                <div class="hr_below_buttons"><hr class="hr_design"/></div>
+                <div class="space_below_three_button"></div>
+            </div>            
+            <div class="container-fluid footer">
+                <div class="row footer_header_image pt-md-3 pb-1 mb-2 ">
+                    <div class="col-2 text-right pr-0  pt-2 mt-1">
+                        <img class="image-fluid" src="img/ico-311.png" alt="ico-311.png"/>  
+                    </div>
+                    <div class="col-3 pl-0">
+                        <div class="footer_header_text font_weight_bold">Top Requests</div>
+                    </div>    
+                </div> 
+                <div class="footer_list_section mx-auto">
+                    <div class="row">
+                        <div class="col-md-4 pl-0 col-sm-4 col-lg-3">
+                            <a href="#" class="footer_links_first_row footer_links">Pay a Parking Ticket</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4  col-lg-3">
+                            <a href="#" class="footer_links_first_row footer_links side_parking_list line_height zero_margin_small">Alternate  Side Parking or Street Cleaning</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 col-lg-3">
+                            <a href="#" class="footer_links_first_row footer_links list_affordable zero_margin_small">Affordable Housing</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 pr-0 col-lg-3 padding_no_left_ipad pt-sm-1 pt-md-0">
+                            <a href="#" class="footer_links_first_row footer_links access_zero_margin small_position width_in_ipad_footer">ACCESS HRA</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 col-lg-3">
+                            <a href="#" class="footer_links city_housing_list line_height zero_margin_small">New York City Housing Lottery</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3 ">
+                            <a href="#" class="footer_links nyc_job_list">NYC Jobs</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links snap_list">SNAP (Food Stamps)</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 pr-0 display_none_xs col-lg-3 padding_no_left_ipad">
+                            <a href="#" class="footer_links parking_ticket_list line_height width_in_ipad_footer">Parking Ticket Lookup and Copies</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links civil_service_list">Civil Service Exams</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links property_deed_list line_height">Property Deeds and Other Documents</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links bbl_lookup_list line_height">Borough-Block-Lot (BBL) Lookup</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 pr-0 display_none_xs col-lg-3 padding_no_left_ipad">
+                            <a href="#" class="footer_links parking_sign_list width_in_ipad_footer">Parking Signs and Locator</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links about_nyc_list pt-lg-3">About NYC311</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links nyc_mobile_list">NYC311 Mobile App</a>
+                        </div>
+                        <div class="col-md-4 pl-0 col-sm-4 display_none_xs col-lg-3">
+                            <a href="#" class="footer_links nyc_twitter display_none_xs">NYC311 Twitter</a>
+                        </div>
+                        <div class="col-md-4 pr-0 display_none_xs col-lg-3 padding_no_left_ipad">
+                            <a href="#" class="footer_links nyc_facebook_list display_none_xs width_in_ipad_footer">NYC311 Facebook</a>
+                        </div>
+                    </div>
+                </div> 
+            </div>            
+            <div class="container-fluid last_footer_black">
+                <div class="last_footer_section mx-auto row pt-4">
+                    <div class="last_footer_left col-lg-9 col-xs-12 col-md-8">
+                        <div class="container-fluid footer_outer_text_conatiner">
+                            <div class="row last_footer_left_text font_weight_bold color_white pl-md-2 pl-lg-0">
+                                <div class="col-md-6 p-0 col-sm-6 col-lg-4 col-xs-12">
+                                    <div class="column_first">Directory of City Agencies</div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 p-0 col-sm-6 margin_bottom col-xs-12">Contact NYC Government</div>
+                                <div class="col-md-6 col-lg-4 p-0 col-sm-6 col-xs-12 position_list_footer no_left_small city_employes_list">City Employees</div>
+                                <div class="col-md-6 col-lg-4 p-0 col-sm-6 col-xs-12">
+                                    <div class="column_first">Notify NYC</div>
+                                </div>
+                                <div class="col-md-6 p-0 col-sm-6 col-lg-4 margin_bottom pb-md-1 col-xs-12">CityStore</div>
+                                <div class="col-md-6 p-0 col-sm-6 col-lg-4 position_list_footer no_left_small margin_bottom col-xs-12">
+                                    <div class="reed">Stay Connected</div>
+                                </div>
+                                <div class="col-md-6 p-0 col-sm-6 col-lg-4 col-xs-12">
+                                    <div class="column_first">NYC Mobile Apps</div>
+                                </div>
+                                <div class="col-md-6 p-0 col-sm-6 margin_bottom col-lg-4 col-xs-12">Maps</div>
+                                <div class="col-md-6 p-0 col-sm-6 position_list_footer no_left_small col-lg-4 col-xs-12">Resident Toolkit</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last_footer_right  col-lg-3 col-md-4">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class=" col-6 pl-0 pr-0">
+                                    <div class="footer_last_right_image float_left color_white"></div>
+                                </div>
+                                <div class="col-3 pl-md-2 input-group"> 
+                                    <input type="text" class="form_dimension color_white" name="nyc_footer_search_text" id="nyc_footer_search_text" value="Search"/>
+                                    <span class="input-group-addon footer position_relative"><img src="img/footer_search.png" alt="footer_search.png"/></span>              
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 pr-0 pl-0">    
+                                    <div class="footer_last_text color_white">
+                                        City of New York. 2016 All Rights Reserved,  
+                                        NYC is a trademark and service mark of the City  
+                                        of New YorkPrivacy Policy. Terms of Use 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>            
+                </div>    
+            </div>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function() {
+                $('.navbar-toggler-icon').click(function() {
+                    $('.sidebar').toggleClass('active'); 
+                    $('.body_style').toggleClass('slide');
+                });
+            });
+        </script>
+    </body>
+</html>
